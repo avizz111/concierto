@@ -22,7 +22,7 @@ function calcPersonas() {
         alert("Debe haber al menos un adulto para poder comprar boletos");
         return;
     }
-    if (boleto.totPersona <= 5){
+    if (boleto.totPersona <= 5 && boleto.totPersona != null && boleto.totPersona != undefined && boleto.totPersona != 0) {
         alert("Debe haber al menos 5 personas para poder comprar boletos");
         return;
     }
